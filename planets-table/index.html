@@ -22,7 +22,7 @@
                 </caption>
                 <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
                 <colgroup>
-                    <col>
+                    <col><span></span>
                     <col>
                     <col>
                     <col>
@@ -38,7 +38,7 @@
                 <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
                 <thead>
                     <tr>
-                        <th></th>
+                        <th colspan="2"></th>
                         <th>Name</th>
                         <th>Mass (10<sup>24</sup>kg)</th>
                         <th>Diameter (km)</th>
@@ -55,7 +55,7 @@
                 <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
                  <tbody>
                     <tr>
-                        <td>Terrestrial planets</td>
+                        <th colspan="2" rowspan="4">Terrestrial planets</th>
                         <td>Mercury</td>
                         <td>0.330</td>
                         <td>4,879</td>
@@ -70,7 +70,6 @@
                             alt="Photo of the planet Mercury"></td>
                     </tr>
                     <tr>
-                        <td>Terrestrial planets</td>
                         <td>Venus</td>
                         <td>4.87</td>
                         <td>12,104</td>
@@ -85,7 +84,6 @@
                             alt="Photo of the planet Venus"></td>
                     </tr>
                     <tr>
-                        <td>Terrestrial planets</td>
                         <td>Earth</td>
                         <td>5.97</td>
                         <td>12,756</td>
@@ -100,7 +98,6 @@
                             alt="Photo of the planet Earth"></td>
                     </tr>
                     <tr>
-                        <td>Terrestrial planets</td>
                         <td>Mars</td>
                         <td>0.642</td>
                         <td>6,792</td>
@@ -115,7 +112,8 @@
                             alt="Photo of the planet Mars"></td>
                     </tr>
                     <tr>
-                        <td>Jovian planets</td>
+                        <th rowspan="4">Jovian planets</th>
+                        <th rowspan="2">Gas Giants</th>
                         <td>Jupiter</td>
                         <td>1898</td>
                         <td>142,984</td>
@@ -130,7 +128,6 @@
                             alt="Photo of the planet Jupiter"></td>
                     </tr>
                     <tr>
-                        <td>Jovian planets</td>
                         <td>Saturn</td>
                         <td>568</td>
                         <td>120,536</td>
@@ -145,7 +142,7 @@
                             alt="Photo of the planet Saturn"></td>
                     </tr>
                     <tr>
-                        <td>Ice giants</td>
+                        <th rowspan="2">Ice Giants</th>
                         <td>Uranus</td>
                         <td>86.8</td>
                         <td>51,118</td>
@@ -160,7 +157,6 @@
                             alt="Photo of the planet Uranus"></td>
                     </tr>
                     <tr>
-                        <td>Ice giants</td>
                         <td>Neptune</td>
                         <td>102</td>
                         <td>49,528</td>
@@ -175,7 +171,7 @@
                             alt="Photo of the planet Neptune"></td>
                     </tr>
                     <tr>
-                        <td>Dwarf planets</td>
+                        <th colspan="2">Dwarf planets</th>
                         <td>Pluto</td>
                         <td>0.0146</td>
                         <td>2,370</td>
