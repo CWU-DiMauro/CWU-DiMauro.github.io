@@ -80,22 +80,26 @@ header, footer {
 /* Imported Typfaces */
 @font-face {
     font-family: josefinslab;
-    src: url("/school-site/fonts/josefinslab-regular.ttf") format('sans-serif');
+    src: url(../fonts/josefinslab-regular.ttf) format('sans-serif');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: montserrat;
-    src: url("/school-site/fonts/montserrat-regular.ttf") format('sans-serif');
+    src: url(../fonts/montserrat-regular.ttf) format('sans-serif');
     font-weight: normal;
     font-style: normal;
 }
 
 /* Typography Styles */
-html {}
+html {
+    max-width:1200px;
+    margin:auto;
+    padding:1rem 2rem;
+}
 
 h1 {
-    font-family: josefinslab, sans-serif;
+    font-family: josefinslab, montserrat, sans-serif;
     font-size: 3.75rem;
     color: ;
     text-shadow: ;
@@ -106,7 +110,7 @@ h1 {
 }
 
 h2 {
-    font-family: josefinslab, sans-serif;
+    font-family: josefinslab, montserrat, sans-serif;
     font-size: 1.5rem;
     color: ;
     text-shadow: ;
@@ -119,8 +123,8 @@ h2 {
 h2 + p {}
 
 p {
-    font-family: josefinslab, sans-serif;
-    font-size: 0.75rem;
+    font-family: josefinslab, montserrat, sans-serif;
+    font-size: .75rem;
     color: ;
     text-shadow: ;
     text-align: ;
@@ -132,7 +136,7 @@ p {
 }
 
 li {
-    font-family: josefinslab, sans-serif;
+    font-family: josefinslab, montserrat, sans-serif;
     font-size: 0.75rem;
     color: ;
     text-shadow: ;
@@ -212,42 +216,46 @@ ol {
 /* Navigation Menu */
 nav {
     display: inline-block;
-    border: solid #33658A;
-    width: 100%;
+    float:left;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    position: flex;
+    border: solid #33658A;   
     line-height: 3;
     font-size: 1.125rem;
     text-align: center;
-    color: ;
-    outline: none;
-    text-decoration: ;
-    padding-left: 0rem;
-    margin-top: 0.25rem;
-    margin-bottom: 1.5rem;
+    padding: 0 0rem 0 0;
+    margin: .25rem 0 1.5rem 0;
 }
 
 nav a {
     color: #33658A;
+    background-color: ;
     outline: ;
-    text-decoration: ;
+    text-decoration: none;
     padding: ;
 }
 
 nav a:focus {
-    color: #33658A;
+    color: #FFF;
+    background-color: #33658A; 
     outline: ;
     text-decoration: ;
     padding: ;
 }
 
 nav a:hover {
-    color: #33658A;
+    color: #FFF;
+    background-color: #33658A;
     outline: ;
     text-decoration: ;
     padding: ;
 }
 
 nav a:active {
-    color: #33658A;
+    color: #FFF;
+    background-color: #000;
     outline: ;
     text-decoration: ;
     padding: ;
