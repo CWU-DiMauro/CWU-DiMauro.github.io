@@ -123,7 +123,6 @@ h2 {
 h2 + p {}
 
 p {
-    font-family: josefinslab, montserrat, sans-serif;
     font-size: .75rem;
     color: ;
     text-shadow: ;
@@ -136,7 +135,6 @@ p {
 }
 
 li {
-    font-family: josefinslab, montserrat, sans-serif;
     font-size: 0.75rem;
     color: ;
     text-shadow: ;
@@ -149,7 +147,6 @@ li {
 }
 
 figcaption {
-    font-family: ;
     font-size: 0.75rem;
     color: ;
     text-shadow: ;
