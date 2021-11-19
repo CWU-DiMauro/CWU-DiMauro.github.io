@@ -212,23 +212,25 @@ ol {
 
 /* Navigation Menu */
 nav {
-    padding-left: 0rem;
-    margin-top: .25rem;
-}
-
-nav a {
-    display: inline-block;
-    width: 100%;
-    border: 0.125rem solid #33658A;
+    float:left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: flex;
+    border: 0.125rem solid #33658A;   
     line-height: 3;
     font-size: 1.125rem;
     text-align: center;
+    padding: 0 0rem 0 0;
+    margin: 1rem 0 1rem 0;
+}
+
+nav a {
     color: #33658A;
     background-color: ;
     outline: ;
     text-decoration: none;
-    padding: .125rem .125rem .5rem .125rem;
-    margin: .25rem .25rem .25rem 0rem;
+    padding: ;
 }
 
 nav a:focus {
