@@ -217,8 +217,8 @@ nav {
 }
 
 nav a {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 90%;
     border: 0.125rem solid #33658A;
     line-height: 3;
     font-size: 1.125rem;
